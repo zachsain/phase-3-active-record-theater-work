@@ -1,33 +1,33 @@
 # Practice Code Challenge Theater Work 
 
-## Learning Goals
+<!-- ## Learning Goals
 
 - Write Active Record Migrations
 - Connect between tables using Active Record Associations
 - Write class and instance methods using Active Record
-- Use Active Record to query the database
+- Use Active Record to query the database -->
 
-## Introduction
+<!-- ## Introduction
 
-The Flatiron Theater Company is holding Auditions!
+The Flatiron Theater Company is holding Auditions! -->
 
 An actor may only `Audition` for one `Role`, while a `Role` may have many `Auditions` for it! 
 
 ![one to many](https://curriculum-content.s3.amazonaws.com/phase-3/active-record-theater-work/one_to_many.png)
-
+<!-- 
 ## Getting started 
 
-run `bundle install`
+run `bundle install` -->
 
-## Migrations 
+<!-- ## Migrations 
 
-Create your migrations. 
+Create your migrations.  -->
 
-- `Auditions` should have an actor(string), location(string) and belong_to a role(integer)
+<!-- - `Auditions` should have an actor(string), location(string) and belong_to a role(integer) -->
 
-- `Roles` should only have a character_name
+<!-- - `Roles` should only have a character_name -->
 
-#### `auditions` Table
+<!-- #### `auditions` Table
 
 | Column | Type |
 | --- | --- |
@@ -35,23 +35,23 @@ Create your migrations.
 | location | string |
 | phone | integer |
 | hired | boolean |
-| role_id | integer |
+| role_id | integer | -->
 
-#### `roles` Table
+<!-- #### `roles` Table
 
 | Column | Type |
 | --- | --- |
-| character_name | string |
+| character_name | string | -->
   
-## Relationship
+<!-- ## Relationship
 
 - What associations will this need?
-- (i.e. `has_many`, `has_many through`, and `belongs_to`)
+- (i.e. `has_many`, `has_many through`, and `belongs_to`) -->
 
-## Audition
+<!-- ## Audition
 
 - `Audition#role` returns an instance of role associated with this audition
-- `Audition#call_back` will change the the hired attribute to `true`
+- `Audition#call_back` will change the the hired attribute to `true` -->
 
 ## Roles
 
